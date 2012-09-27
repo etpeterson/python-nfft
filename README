@@ -1,0 +1,24 @@
+Python-NFFT: A Python wrapper for NFFT3
+
+Overview
+--------
+This functions primarily as a wrapper for NFFT3, so please see their website at (http://www-user.tu-chemnitz.de/~potts/nfft/index.php) for questions relating to the NFFT.
+
+NOTE: Because my goal was creating something that works, not everything is easy or intuitive to use. Not all the functions may be bug free, but the standard nfft should work fine (see the example). It also still has a lot of commented blocks and is not very clean. Sorry! It works for my purposes, but it may not work how you want it, so some programming may be required!
+
+VERSION NOTE: I have only tested it with NFFT-3.1.3, it may or may not work with other versions!
+
+My goal was to create an interface for NFFT3 in Python for MRI, so some of the language and functions may be MRI specific. Please let me know if you have suggestions or comments.
+
+Eric Peterson <globshim@gmail.com>
+Developed at RMSB/CNRS/University of Bordeaux 2
+
+
+
+Legal Information
+-----------------
+Python-nfft is free software. You can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version. If not stated otherwise, this applies to all files contained in this package and its sub-directories.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA

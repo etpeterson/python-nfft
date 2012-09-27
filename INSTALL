@@ -1,0 +1,15 @@
+Installation Instructions
+-------------------------
+Required Software:
+1. Python/Numpy/Scipy (only tested with Python 2.7.1)
+2. Ctypes
+3. NFFT3
+4. Qhull (for calculating sampling density)
+5. Matplotlib (required to view the images at the end of the example script!)
+
+Note on Ctypes: I included 2 files (nfft3.py and fftw3.py) which were generated with ctypesgen. These files are essentially wrappers of nfft3.h and fftw3.h for ctypes. I think unless the *.h files change significantly, just using these should be fine, but I recommend updating them with ctypesgen if nfft or fftw are updated.
+
+
+Getting Started
+---------------
+You can cd to python-nfft and run python nfft_example.py. You will see it working, and then the result images appear. To look at the code, just open nfft_example.py in your favorite viewer and take a look at how it works.
