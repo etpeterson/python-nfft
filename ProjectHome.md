@@ -1,0 +1,1 @@
+This project provides a python wrapper for the primary functions found in the non-uniform fft gridding library NFFT (http://www-user.tu-chemnitz.de/~potts/nfft/index.php). This project was developed with MRI in mind, so it also provides a linear conjugate gradient framework which allows for data weighting and SENSE type parallel imaging for non-cartesian MRI.
